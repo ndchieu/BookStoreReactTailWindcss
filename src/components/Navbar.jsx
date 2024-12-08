@@ -8,7 +8,7 @@ const Navbar = ({ containerStyles, toggleMenu, menuOpened }) => {
     const navItems = [
         { to: '/', label: 'Home', icon: <TbHomeFilled /> },
         { to: '/shop', label: 'Shop', icon: <IoLibrary /> },
-        { to: 'mailto:info@bacala.com', label: 'Contact', icon: <IoMailOpen /> }
+        { to: 'mailto:ndchieu2107@gmail.com', label: 'Contact', icon: <IoMailOpen /> }
     ];
 
     return (
@@ -20,7 +20,7 @@ const Navbar = ({ containerStyles, toggleMenu, menuOpened }) => {
 
                     {/* logo */}
                     <Link to={'/'} className='mb-10 bold-24 '>
-                        <h4 className='text-secondary'>Bacala</h4>
+                        <h4 className='text-secondary'>BookStore</h4>
                     </Link>
                 </>
             )}

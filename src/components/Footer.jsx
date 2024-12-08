@@ -16,7 +16,7 @@ const Footer = () => {
                         {/* logo */}
                         <Link to={'/'} className='flex items-center justify-start flex-1'>
                             <img src={logo} alt="" height={36} width={36} className='hidden mr-2 sm:flex' />
-                            <h4 className='bold-24'>Bacala</h4>
+                            <h4 className='bold-24'>BookStore</h4>
                         </Link>
                         <p className='py-4'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla recusandae voluptatibus excepturi nostrum cum delectus repellat?</p>
                         <div className='flexBetween pl-3 h-[3rem] bg-primary w-full max-w-[333px] rounded-full ring-1 ring-slate-500/5 mb-4'>
